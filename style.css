@@ -1,0 +1,29 @@
+* {
+    background-color: #393939;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Nunito Sans';
+    margin: 0 auto;
+    padding: 0;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.dashboard {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.bodyContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.links li{
+    list-style: none;
+}
+.links a{
+    text-decoration: none;
+}
